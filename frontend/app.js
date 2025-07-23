@@ -13,7 +13,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     // POST to FastAPI
-    const res = await fetch(`https://ajax-demo-w8ob-id0bn108e-sakshyam-gyawalis-projects.vercel.app/${endpoint}`, {
+    const res = await fetch(`https://ajax-demo-w8ob-id0bn108e-sakshyam-gyawalis-projects.vercel.app${endpoint}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
